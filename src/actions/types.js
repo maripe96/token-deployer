@@ -1,0 +1,1 @@
+export const CHANGE_ACCOUNT = "CHANGE_ACCOUNT";
