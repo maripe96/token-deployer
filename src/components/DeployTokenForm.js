@@ -37,7 +37,6 @@ const deployToken = async (formValues, selectedProtocol) => {
     gasPrice: estimateGas * 10,
   });
   const contractAddress = contractSend._address;
-  console.log("ADDRESS", contractAddress);
   return contractAddress;
 };
 
