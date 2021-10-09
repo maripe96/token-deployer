@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/token-deployer/static/js/main.25597015.chunk.js",
+    "main.js.map": "/token-deployer/static/js/main.25597015.chunk.js.map",
+    "runtime-main.js": "/token-deployer/static/js/runtime-main.f826a7b3.js",
+    "runtime-main.js.map": "/token-deployer/static/js/runtime-main.f826a7b3.js.map",
+    "static/css/2.818011ed.chunk.css": "/token-deployer/static/css/2.818011ed.chunk.css",
+    "static/js/2.7d4ac1d1.chunk.js": "/token-deployer/static/js/2.7d4ac1d1.chunk.js",
+    "static/js/2.7d4ac1d1.chunk.js.map": "/token-deployer/static/js/2.7d4ac1d1.chunk.js.map",
+    "index.html": "/token-deployer/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/token-deployer/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.7d4ac1d1.chunk.js.LICENSE.txt": "/token-deployer/static/js/2.7d4ac1d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f826a7b3.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.7d4ac1d1.chunk.js",
+    "static/js/main.25597015.chunk.js"
+  ]
+}
