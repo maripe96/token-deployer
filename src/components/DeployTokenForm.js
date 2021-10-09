@@ -28,13 +28,16 @@ const deployToken = async (formValues, selectedProtocol) => {
     data: buildData.bytecode,
     arguments: deployArguments,
   });
+
   const estimateGas = await contractDeploy.estimateGas({
     from: accounts[0],
   });
+  const estimateGasPrice = await web3.eth.getGasPrice();
+
   const contractSend = await contractDeploy.send({
     from: accounts[0],
     gas: estimateGas,
-    gasPrice: estimateGas * 10,
+    gasPrice: estimateGasPrice,
   });
   const contractAddress = contractSend._address;
   return contractAddress;
